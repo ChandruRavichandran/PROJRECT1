@@ -1,0 +1,107 @@
+
+.appcnt1 span{
+    color: rgb(150, 219, 150);
+}
+.appcnt111{
+    display: flex;
+    justify-content: space-evenly;
+}
+.appcnt11{
+    width: 98%;
+    height: 500px;
+    /* background-color: aqua; */
+    /* padding: 30px; */
+}
+.appcnt111 div:nth-child(1){
+    /* background-color: aquamarine; */
+    width: 750px;
+    margin-top: 150px;
+}
+.appcnt111 div:nth-child(2){
+    width: 400px;
+}
+.appcnt111 img{
+    width: 450px;
+    height: 500px;
+
+}
+.appcnt111 h1{
+    font-weight: 100;
+    color: rgb(28, 28, 75);
+}
+.appcnt111 h5{
+    margin-top: 40px;
+    font-weight: 100;
+    color: rgb(163, 162, 162);
+}
+
+
+/*************/
+.appcnt112{
+    display: flex;
+    background-color: rgb(179, 252, 204);
+    width: 100%;
+    height: 500px;
+    
+}
+#pharimg1 img{
+    width: 380px;
+    height: 300px;
+    margin-top: 150px;
+}
+.appcnt112 img{
+    width: 450px;
+    height: 350px;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.appcnt112 :nth-child(2){
+   /* background-color: aqua; */
+   font-weight: 100;
+}
+.appcnt112 h1{
+    font-weight: 100;
+    padding: 30px;
+    margin-top: 70px;
+}
+.appcnt112 h5{
+    padding: 30px;
+    color: rgb(163, 162, 162);
+
+}
+.hotelapp1img img{
+    width: 520px;
+    height: 380px;
+    margin-top: 50px;
+}
+/*****************/
+
+.appcnt113{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.appcnt113 div:nth-child(1){
+    /* background-color: aquamarine; */
+    width: 750px;
+    margin-top: 150px;
+}
+.appcnt113 div:nth-child(2){
+    width: 400px;
+}
+.appcnt113 img{
+    width: 450px;
+    height: 350px;
+    margin-top: 80px;
+
+}
+.appcnt113 h1{
+    font-weight: 100;
+    color: rgb(28, 28, 75);
+}
+.appcnt113 h5{
+    margin-top: 40px;
+    font-weight: 100;
+    color: rgb(163, 162, 162);
+}

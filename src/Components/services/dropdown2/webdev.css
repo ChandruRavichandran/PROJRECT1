@@ -1,0 +1,316 @@
+.we{
+    width: 100%;
+    height: 600px;
+    /* background-color: rgb(213, 231, 248); */
+}
+.webdev11{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.webdev111{
+    width: 800px;
+    height: 400px;
+    padding: 50px;
+}
+.webdev111 h2{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 100;
+}
+.webdev111 h4{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 100;
+}
+.webdev111 span{
+ color: rgb(124, 241, 124);
+}
+.webdev1111{
+    padding: 20px;
+    width: 450px;
+    height: 200px;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.15);
+
+    /* border-color:rgb(124, 241, 124); */
+    /* border-style:inset; */
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.webdev1111 img{
+    width: 150px;
+    height: 150px;
+}
+.webdev1111 h5{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 100;
+}
+.webdev1111 button{
+    margin-left: 40px;
+    margin-top: 10px;
+    width: 180px;
+    height: 30px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: rgb(150, 219, 150);
+    border-radius: 15px;
+}
+.webdev112 img{
+    width: 600px;
+    height: 450px;
+    margin-top: 50px;
+    border-radius: 120px 0px;
+}
+.webdev1111{
+    display: flex;
+}
+
+
+/*****************/
+.webdev2{
+    display: flex;
+    width: 95%;
+    height: 500px;
+    margin-top: 100px;
+    justify-content: space-evenly;
+}
+
+.webdev21 img{
+    width: 650px;
+    height: 650px;
+    margin-left: 50px;
+    margin-top: -80px;
+    position: relative;
+}
+.webdev22{
+    padding: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+.webdev22 h2{
+    font-size: 3rem;
+    font-weight: 100;
+    
+}
+.webdev22 span{
+    color:rgb(124, 241, 124) ;
+}
+.webdev22 h4{
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 60px;
+}
+
+
+
+/*****/
+@media only screen and (max-width: 1200px){
+.we{
+    width: 100%;
+    height: 600px;
+    /* background-color: rgb(213, 231, 248); */
+}
+.webdev11{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.webdev111{
+    width: 100%;
+    height: 400px;
+    padding: 50px;
+}
+.webdev111 h2{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 100;
+}
+.webdev111 h4{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 100;
+    font-size: 1rem;
+}
+.webdev111 span{
+ color: rgb(124, 241, 124);
+}
+.webdev1111{
+    padding: 20px;
+    width: 350px;
+    height: 180px;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.15);
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.webdev1111 img{
+    width: 110px;
+    height: 110px;
+}
+.webdev1111 h5{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 100;
+    font-size: 15px;
+    padding: 10px;
+}
+.webdev1111 button{
+    margin-left: 40px;
+    margin-top: 10px;
+    width: 130px;
+    height: 20px;
+    font-size: 13px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: rgb(150, 219, 150);
+    border-radius: 15px;
+}
+.webdev112 img{
+    width: 450px;
+    height: 350px;
+    margin-top: 50px;
+    border-radius: 120px 0px;
+}
+.webdev1111{
+    display: flex;
+}
+}
+
+/**********************/
+@media only screen and (max-width: 920px){
+    .we{
+        width: 100%;
+        height: 450px;
+        /* background-color: rgb(213, 231, 248); */
+    }
+    .webdev11{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    
+    .webdev111{
+        width: 100%;
+        height: 400px;
+        padding: 40px;
+    }
+    .webdev111 h2{
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 100;
+    }
+    .webdev111 h4{
+        text-align: center;
+        margin-top: 20px;
+        font-weight: 100;
+        font-size: 15px;
+
+    }
+    .webdev111 span{
+     color: rgb(124, 241, 124);
+    }
+    .webdev1111{
+        padding: 20px;
+        width: 350px;
+        height: 180px;
+        box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.15);
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+    .webdev1111 img{
+        width: 110px;
+        height: 110px;
+    }
+    .webdev1111 h5{
+        text-align: center;
+        margin-top: 10px;
+        font-weight: 100;
+        font-size: 15px;
+        padding: 10px;
+    }
+    .webdev1111 button{
+        margin-left: 40px;
+        margin-top: 10px;
+        width: 130px;
+        height: 20px;
+        font-size: 13px;
+        outline: none;
+        border: none;
+        color: white;
+        background-color: rgb(150, 219, 150);
+        border-radius: 15px;
+    }
+    .webdev112 img{
+        width: 400px;
+        height: 300px;
+        margin-top: 50px;
+        border-radius: 120px 0px;
+    }
+    .webdev1111{
+        display: flex;
+    }
+    }
+
+
+    /*****************************/
+    @media only screen and (max-width: 720px) {
+        .we{
+            width: 100%;
+            height: 900px;
+            /* background-color: rgb(213, 231, 248); */
+        }
+        .webdev11{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        
+        .webdev111{
+            width: 800px;
+            height: 400px;
+            padding: 50px;
+
+        }
+        .webdev111 h2{
+            font-size: 2rem;
+        }
+        .webdev111 h4{
+            margin-top: 15px;
+            
+        }
+        
+        .webdev1111{
+            width: 360px;
+            height: 150px;
+             margin-left:25%;
+        }
+        .webdev1111 img{
+            width: 100px;
+            height: 100px;
+        }
+        .webdev1111 h5{
+            text-align: center;
+            margin-top: -18px;
+            font-weight: 100;
+        }
+        .webdev1111 button{
+            margin-left: 40px;
+            width: 120px;
+            height: 25px;
+         
+        }
+        .webdev112 img{
+            width: 400px;
+            height: 250px;
+            border-radius: 120px 0px;
+        }
+        .webdev1111{
+            display: flex;
+        }
+    }
+

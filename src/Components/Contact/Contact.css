@@ -1,0 +1,65 @@
+.webdevA11{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(253, 251, 253);
+}
+
+
+.webdev111{
+  width: 800px;
+  height: 400px;
+  padding: 50px;
+}
+.webdev111 h2{
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 100;
+}
+.webdev111 h4{
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 100;
+}
+.webdev111 span{
+color: rgb(124, 241, 124);
+}
+.webdev1111{
+  padding: 20px;
+  width: 450px;
+  height: 200px;
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.15);
+
+  /* border-color:rgb(124, 241, 124); */
+  /* border-style:inset; */
+  margin-left: 150px;
+  margin-top: 50px;
+}
+.webdev1111 img{
+  width: 150px;
+  height: 150px;
+}
+.webdev1111 h5{
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 100;
+}
+.webdev1111 button{
+  margin-left: 40px;
+  margin-top: 10px;
+  width: 180px;
+  height: 30px;
+  outline: none;
+  border: none;
+  color: white;
+  background-color: rgb(150, 219, 150);
+  border-radius: 15px;
+}
+.webdev112 img{
+  width: 600px;
+  height: 450px;
+  margin-top: 50px;
+  border-radius: 120px 0px;
+}
+.webdev1111{
+  display: flex;
+}

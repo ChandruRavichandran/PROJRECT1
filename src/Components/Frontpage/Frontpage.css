@@ -1,0 +1,854 @@
+
+#pageone{
+    width: 95%;
+    height: 500px;
+    margin: 40px;
+    border-radius: 30px;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.15);
+    /* background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(47, 152, 217)); */
+    display: flex;
+}
+#pageoneone{
+   
+    padding-top: 80px;
+    padding-left: 50px;
+
+
+
+
+}
+#pageoneone h1{
+    color: rgb(76, 145, 210);
+    margin-left: 10px;
+    font-size: 50px;
+    font-weight: 100;
+
+}
+#pageoneone h1 i{
+    color: rgb(150, 219, 150)
+} 
+#pageoneone h2{
+    margin-top: 20px;
+    color: rgb(80, 78, 78);
+    font-weight: 100;
+
+}
+#pageoneone h3{
+
+    color: rgb(80, 78, 78);
+    margin-top: 40px;
+    font-weight: 100;
+
+}
+#pageoneone h3 span{
+    color: rgb(150, 219, 150);
+    font-weight: 100;
+
+}
+#pageoneone button{
+  margin: 30px;
+}
+#pageone img{
+    width: 650px;
+    height: 450px;
+    margin-left: 50px;
+    margin-top: 25px;
+    /* margin-left: 750px; */
+}
+
+
+
+
+/*******/
+
+
+
+#pagetwo  h2{
+    text-align: center;
+    color:rgb(76, 145, 210) ;
+}
+#pagetwo h4{
+     /* text-align: center; */
+     color: rgb(150, 219, 150)}
+#pagetwo h5{
+    /* padding: 50px; */
+    width: 500px;
+    height: 100%;
+    color: rgb(156, 152, 152);
+
+}
+ #pagetwotwo{
+    display: flex;
+    
+}
+#pagetwotwo #para1{
+    padding-top: 30px;
+    padding-left: 150px;
+    justify-content: center;
+}
+#pagetwotwo #para1 h5 span{
+    color: rgb(79, 77, 77);
+}
+#pagetwotwo #para2 h5 span{
+    color: rgb(79, 77, 77);
+}
+#pagetwotwo #para2{
+    padding-top: 30px;
+    padding-left: 120px;
+    justify-content: center;
+}
+/* #pagetwo{
+    width: 95%;
+    height: 500px;
+    margin: 40px;
+    border-radius: 30px;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.15);
+    display: flex;
+} */
+
+
+
+
+
+/***********/
+
+
+
+
+
+#pagethree{
+    margin: 50px;
+}
+#pagethree img{
+    width: 500px;
+    height: 300px;
+}
+#threeone{
+    display: flex;
+}
+#threeone h2{
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(150, 219, 150)
+
+}
+#threeone h5{
+    /* color:rgb(76, 145, 210) ; */
+  color: rgb(156, 152, 152);
+    text-align: center;
+}
+#threetwo{
+    display: flex;
+}
+#threetwo h2{
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(150, 219, 150)
+
+
+}
+#threetwo h5{
+    color: rgb(156, 152, 152);
+    text-align: center;
+}
+#threethree{
+    display: flex;
+}
+#threethree h2{
+    color: rgb(150, 219, 150);
+
+    text-align: center;
+    margin-top: 50px;
+
+}
+#threethree h5{
+    color: rgb(156, 152, 152);
+    text-align: center;
+}
+
+
+
+/*****/
+
+#pagefour{
+    margin-top: 50px;
+}
+
+#pagefour #fourtitleone{
+  text-align: center;
+
+  /* align-items: center; */
+}
+#fourtitleone span{
+    color: orangered;
+}
+
+#fourtitletwo{
+    color: rgb(156, 152, 152);
+   /* margin-top: 50px; */
+   padding: 100px;
+   font-size: 22px;
+   text-align: center;
+}
+
+
+
+/**************/
+#pagefive{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    justify-content: center;
+
+
+}
+.pfive1{
+    width: 350px;
+    height: 350px;
+    background-color: rgb(159, 51, 241);
+    border-radius: 50px 0px;
+}
+.pfive2{
+    width: 350px;
+    height: 350px;
+    background-color: rgb(11, 136, 115);
+    border-radius: 50px;
+
+}
+.pfive3{
+    width: 350px;
+    height: 350px;
+    background-color: rgb(177, 232, 26);
+    border-radius: 0px 50px ;
+
+}
+
+#pagefive img{
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+}
+/* #pagefive img:hover{
+    width: 350px;
+    height: 350px;
+    padding: 30px;
+} */
+#pagefive h2{
+    color: white;
+    text-align: center;
+}
+#pagefive .pfive1:hover{
+  box-shadow: 0px 0px 5px 7px rgba(0, 0, 0, 0.15);
+  
+}
+#pagefive .pfive2:hover{
+    box-shadow: 0px 0px 5px 7px rgba(0, 0, 0, 0.15);  
+}
+  #pagefive .pfive3:hover{
+    box-shadow: 0px 0px 5px 7px rgba(0, 0, 0, 0.15);  
+}
+
+
+
+
+
+/*************/
+/****1350px**********/
+
+
+@media only screen and (max-width: 1350px) {
+    #pageone{
+        width: 92%;
+        height: 500px;
+        margin: 40px;
+        border-radius: 30px;
+        box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.15);
+        /* background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(47, 152, 217)); */
+        display: flex;
+    }
+    #pageoneone{
+       
+        padding-top: 80px;
+        padding-left: 50px;
+    
+    }
+    #pageone img{
+        width: 550px;
+        height: 400px;
+        margin-left: 50px;
+        margin-top: 25px;
+        /* margin-left: 750px; */
+    }
+    #pageoneone h1{
+        color: rgb(76, 145, 210);
+        margin-left: 10px;
+        font-size: 35px;
+        font-weight: 100;
+    
+    }
+    #pageoneone h1 i{
+        color: rgb(150, 219, 150)
+    } 
+}
+
+
+/*******1200******/
+@media only screen and (max-width: 1200px){
+    #pageone{
+        width: 92%;
+        height: 450px;
+        margin: 40px;
+        border-radius: 30px;
+        box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.15);
+        /* background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(47, 152, 217)); */
+        display: flex;
+    }
+    #pageoneone{
+       
+        padding-top: 80px;
+        padding-left: 50px;
+    
+    }
+    #pageone img{
+        width: 520px;
+        height: 360px;
+        margin-left: 50px;
+        margin-top: 25px;
+        /* margin-left: 750px; */
+    }
+    #pageoneone h1{
+        color: rgb(76, 145, 210);
+        margin-left: 10px;
+        font-size: 35px;
+        font-weight: 100;
+    
+    }
+    #pageoneone h1 i{
+        color: rgb(150, 219, 150)
+    }
+    #pageoneone h2{
+        margin-top: 20px;
+        color: rgb(80, 78, 78);
+        font-weight: 100;
+        font-size: 25px;
+
+    }
+    #pageoneone h3{
+    
+        color: rgb(80, 78, 78);
+        margin-top: 40px;
+        font-weight: 100;
+        font-size: 25px;
+
+    
+    }
+    #pageoneone h3 span{
+        color: rgb(150, 219, 150);
+        font-weight: 100;
+    
+    }
+    #pagefive{
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        justify-content: center;
+    
+    }
+    .pfive1{
+        width: 270px;
+        height: 270px;
+        background-color: rgb(159, 51, 241);
+    }
+    .pfive2{
+        width: 270px;
+        height: 270px;
+        background-color: rgb(11, 136, 115);
+    }
+    .pfive3{
+        width: 270px;
+        height: 270px;
+        background-color: rgb(177, 232, 26);
+    }
+    
+    #pagefive img{
+        width: 200px;
+        height: 200px;
+        padding: 30px;
+    }
+   
+    #pagefive h2{
+        color: white;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    }
+    /*********************/
+    @media only screen and (max-width: 920px) {
+
+        #pageone{
+            width: 92%;
+            height: 350px;
+            margin: 40px;
+            border-radius: 30px;
+            box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.15);
+            /* background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(47, 152, 217)); */
+            display: flex;
+        }
+        #pageoneone{
+           
+            padding-top: 50px;
+            padding-left: 50px;
+        
+        }
+        #pageone img{
+            width: 350px;
+            height: 250px;
+            margin-left: 50px;
+            margin-top: 25px;
+            /* margin-left: 750px; */
+        }
+        #pageoneone h1{
+            color: rgb(76, 145, 210);
+            margin-left: 10px;
+            font-size: 25px;
+            font-weight: 100;
+        
+        }
+        #pageoneone h1 i{
+            color: rgb(150, 219, 150)
+        } 
+        #pageoneone h2{
+            font-size: 20px;
+        }
+        #pageoneone h3{
+            font-size: 20px;
+        }
+        
+
+        
+#pagetwo  h2{
+    color:rgb(76, 145, 210) ;
+    font-size: 20px;
+}
+#pagetwo h4{
+     color: rgb(150, 219, 150);
+     font-size: 20px;}
+
+#pagetwo h5{
+    width: 600px;
+    height: 100%;
+    color: rgb(156, 152, 152);
+    font-size: 20px;
+
+
+}
+ #pagetwotwo{
+    display: flex;
+    flex-direction: column;
+}
+#pagetwotwo #para1 h5 span{
+    color: rgb(79, 77, 77);
+}
+#pagetwotwo #para2 h5 span{
+    color: rgb(79, 77, 77);
+}
+
+
+#pagethree{
+    margin: 50px;
+}
+#pagethree img{
+    width: 300px;
+    height: 180px;
+}
+#threeone{
+    display: flex;
+}
+#threeone h2{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    color: rgb(150, 219, 150)
+
+}
+#threeone h5{
+    /* color:rgb(76, 145, 210) ; */
+  color: rgb(156, 152, 152);
+    text-align: center;
+    font-size: 15px;
+
+}
+#threetwo{
+    display: flex;
+}
+#threetwo h2{
+    text-align: center;
+    font-size: 20px;
+
+    margin-top: 50px;
+    color: rgb(150, 219, 150)
+
+
+}
+#threetwo h5{
+    color: rgb(156, 152, 152);
+    text-align: center;
+    font-size: 15px;
+
+}
+#threethree{
+    display: flex;
+}
+#threethree h2{
+    color: rgb(150, 219, 150);
+    font-size: 20px;
+
+    text-align: center;
+    margin-top: 50px;
+
+}
+#threethree h5{
+    font-size: 15px;
+
+    color: rgb(156, 152, 152);
+    text-align: center;
+}
+
+
+#pagefive{
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    justify-content: center;
+
+}
+.pfive1{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(159, 51, 241);
+}
+.pfive2{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(11, 136, 115);
+}
+.pfive3{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(177, 232, 26);
+}
+
+#pagefive img{
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+}
+#pagefive h2{
+    font-size: 18px;
+}
+}
+
+/*************************/
+    /*********************/
+    @media only screen and (max-width: 720px) {
+          
+        #pageone{
+            width: 92%;
+            height: 320px;
+            margin: 40px;
+            border-radius: 30px;
+            box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.15);
+            /* background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(47, 152, 217)); */
+            display: flex;
+        }
+       
+        #pageone img{
+            width: 250px;
+            height: 200px;
+           
+            /* margin-left: 750px; */
+        }
+        #pageoneone h1{
+            color: rgb(76, 145, 210);
+            margin-left: 10px;
+            font-size: 18px;
+            font-weight: 100;
+        
+        }
+        #pageoneone h1 i{
+            color: rgb(150, 219, 150);
+            font-size: 15px;
+        } 
+        #pageoneone h2{
+            font-size: 16px;
+        }
+        #pageoneone h3{
+            font-size: 14px;
+        }
+        #pageoneone button{
+            width: 80px;
+            height: 40px;
+            font-size: 15px;
+          }
+
+        
+#pagetwo  h2{
+    color:rgb(76, 145, 210) ;
+    font-size: 20px;
+}
+#pagetwo h4{
+     color: rgb(150, 219, 150);
+     font-size: 20px;}
+
+#pagetwo h5{
+    width: 600px;
+    height: 100%;
+    color: rgb(156, 152, 152);
+    font-size: 15px;
+
+
+}
+#pagetwotwo #para1{
+    padding-top: 30px;
+    padding-left: 120px;
+    justify-content: center;
+}
+#pagethree{
+    margin: 50px;
+}
+#pagethree img{
+    width: 250px;
+    height: 140px;
+}
+#threeone{
+    display: flex;
+}
+#threeone h2{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    color: rgb(150, 219, 150)
+
+}
+#threeone h5{
+    /* color:rgb(76, 145, 210) ; */
+  color: rgb(156, 152, 152);
+    text-align: center;
+    font-size: 15px;
+
+}
+#threetwo{
+    display: flex;
+}
+#threetwo h2{
+    text-align: center;
+    font-size: 20px;
+
+    margin-top: 50px;
+    color: rgb(150, 219, 150)
+
+
+}
+#threetwo h5{
+    color: rgb(156, 152, 152);
+    text-align: center;
+    font-size: 15px;
+
+}
+#threethree{
+    display: flex;
+}
+#threethree h2{
+    color: rgb(150, 219, 150);
+    font-size: 20px;
+
+    text-align: center;
+    margin-top: 50px;
+
+}
+#threethree h5{
+    font-size: 15px;
+
+    color: rgb(156, 152, 152);
+    text-align: center;
+}
+
+
+#pagefive{
+    display: flex ;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+    
+
+}
+.pfive1{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(159, 51, 241);
+}
+.pfive2{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(11, 136, 115);
+}
+.pfive3{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(177, 232, 26);
+}
+
+#pagefive img{
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+}
+#pagefive h2{
+    font-size: 18px;
+}
+}
+
+/****************/
+
+@media only screen and (max-width: 540px) {
+    #pageone{
+        width: 92%;
+        height: 600px;
+        margin: 40px;
+        border-radius: 30px;
+        box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.15);
+        /* background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(47, 152, 217)); */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+   
+   
+    #pageoneone{
+        text-align: center;
+    }
+
+  /* #pagetwotwo{
+    width:90%;
+    height: 600px;
+  } */
+  #para1 h4{
+    width:70%;
+   font-size: 18px; 
+  }
+  #para2 h4{
+    width:70%;
+   font-size: 18px; 
+  }
+   #para1 h5{
+    width:70%;
+    height: 200px;
+   }
+   #para2 h5{
+    width:70%;
+    height: 200px;
+   }
+   
+   
+
+#pagethree{
+margin: 50px;
+}
+#pagethree img{
+width: 250px;
+height: 140px;
+}
+#threeone{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+
+}
+#threeone h2{
+text-align: center;
+font-size: 20px;
+margin-top: 10px;
+color: rgb(150, 219, 150)
+
+}
+#threeone h5{
+/* color:rgb(76, 145, 210) ; */
+color: rgb(156, 152, 152);
+text-align: center;
+font-size: 15px;
+
+}
+#threetwo{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+#threetwo h2{
+text-align: center;
+font-size: 20px;
+
+margin-top: 50px;
+color: rgb(150, 219, 150)
+
+
+}
+#threetwo h5{
+color: rgb(156, 152, 152);
+text-align: center;
+font-size: 15px;
+
+}
+#threethree{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+#threethree h2{
+color: rgb(150, 219, 150);
+font-size: 20px;
+
+text-align: center;
+margin-top: 50px;
+
+}
+#threethree h5{
+font-size: 15px;
+
+color: rgb(156, 152, 152);
+text-align: center;
+}
+
+
+#pagefive{
+display: flex ;
+align-items: center;
+gap: 30px;
+flex-direction: column;
+
+
+}
+.pfive1{
+width: 200px;
+height: 200px;
+background-color: rgb(159, 51, 241);
+}
+.pfive2{
+width: 200px;
+height: 200px;
+background-color: rgb(11, 136, 115);
+}
+.pfive3{
+width: 200px;
+height: 200px;
+background-color: rgb(177, 232, 26);
+}
+
+#pagefive img{
+width: 150px;
+height: 150px;
+padding: 20px;
+}
+#pagefive h2{
+font-size: 18px;
+}
+    
+}

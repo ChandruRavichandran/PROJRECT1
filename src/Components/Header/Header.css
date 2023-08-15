@@ -1,0 +1,91 @@
+#header {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 80px;
+}
+#header div {
+    display: flex;
+}
+#header img{
+    width: 200px;
+    height: 80px;
+    margin-top: 7px;
+}
+#header button{
+    margin-top: 25px;
+     width: 180px;
+     height: 50px;
+     color: rgb(76, 145, 210);
+     background-color: white;
+   border-color:rgb(212, 232, 250) ;
+    border-style: ridge;
+    margin-left: 660px;
+   border-radius: 30px;
+ }
+ #header button:hover{
+    margin-top: 25px;
+     width: 180px;
+     height: 50px;
+     color: whitesmoke;
+     background-color: rgb(76, 145, 210);
+    margin-left: 660px;
+     border: none;
+     outline: none;
+     box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.15);
+
+ }
+#headerthree button i{
+    color: white;
+}
+#headerthree button i:hover{
+    color: rgb(76, 145, 210);
+}
+
+/*****************/
+
+@media screen and  (max-width: 720px) {
+    #header {
+        /* display: flex;
+        justify-content: space-around; */
+        width: 100%;
+        height: 80px;
+    }
+    #header div { 
+        /* display: flex; */
+    }
+    #header img{
+        width: 80px;
+        height: 80px;
+        margin-top: 7px;
+    }
+    #header button{
+        margin-top: 25px;
+         width: 80px;
+         height: 50px;
+         color: rgb(76, 145, 210);
+         background-color: white;
+       border-color:rgb(212, 232, 250) ;
+        border-style: ridge;
+        /* margin-left: 660px; */
+       border-radius: 30px;
+     }
+     #header button:hover{
+        margin-top: 25px;
+         width: 80px;
+         height: 50px;
+         color: whitesmoke;
+         background-color: rgb(76, 145, 210);
+        /* margin-left: 660px; */
+         border: none;
+         outline: none;
+         box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.15);
+    
+     }
+    #headerthree button i{
+        color: white;
+    }
+    #headerthree button i:hover{
+        color: rgb(76, 145, 210);
+    }
+} 
